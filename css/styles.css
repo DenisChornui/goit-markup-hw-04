@@ -253,6 +253,16 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+/* About icons */
+.about-icon-conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-cloud);
+    margin-bottom: 8px;
+    height: 112px;
+    border-radius: 4px;
+}
 
 /**
   |============================
@@ -337,6 +347,7 @@ button {
     letter-spacing: 0.02em;
     line-height: 1.5;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .card-content {
@@ -345,6 +356,36 @@ button {
     align-items: center;
     padding: 32px 16px;
     gap: 8px;
+}
+/* Social icons */
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 0;
+}
+.socials-iteam {
+}
+.socials-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    background-color: var(--logo-cl);
+}
+.socials-icon {
+    fill: var(--color-cloud);
+}
+.socials-link:hover {
+    background-color: var(--activ-cl);
+}
+
+.socials-link:focus {
+    background-color: var(--activ-cl);
 }
 /**
   |============================
