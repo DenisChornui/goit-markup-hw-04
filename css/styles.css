@@ -176,6 +176,18 @@ button {
     margin: 0px;
     padding-top: 188px;
     padding-bottom: 188px;
+
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero/people-office.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-title {
@@ -387,6 +399,64 @@ button {
 .socials-link:focus {
     background-color: var(--activ-cl);
 }
+
+/**
+  |============================
+  | Customers
+  |============================
+*/
+.customers {
+    padding-top: 107px;
+    padding-bottom: 120px;
+}
+.customers-container {
+}
+
+.customers-list {
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.customers-iteam {
+    width: 168px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.customers-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    color: #8E8F99;
+}
+
+.customers-icon {
+    fill: currentColor;
+}
+
+.customers-link:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-color: var(--activ-cl);
+    color: var(--activ-cl);
+}
+.customers-link:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-color: var(--activ-cl);
+    color: var(--activ-cl);
+}
+.customers-iteam:focus .customers-icon {
+    fill: var(--activ-cl);
+}
+.customers-iteam:hover .customers-icon {
+    fill: var(--activ-cl);
+}
 /**
   |============================
   | Footer
@@ -421,6 +491,54 @@ button {
     font-weight: 400;
     letter-spacing: 0.02em;
     width: 264px;
+}
+
+.footer-left {
+    margin-right: 120px;
+}
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
+/* Footer social */
+
+.footer-social {
+}
+.footer-social-tx {
+    margin-bottom: 16px;
+    font-weight: 500;
+    color: var(--hero-cl);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.footer-social-list {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-social-iteam {
+    width: 40px;
+    height: 40px;
+}
+.footer-social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+
+}
+.footer-social-link:focus {
+    background-color: #31D0AA;
+}
+.footer-social-link:hover {
+    background-color: #31D0AA;
+}
+.footer-social-icon {
+    fill: var(--color-cloud);
 }
 
 /**
