@@ -74,6 +74,7 @@ button {
 .header {
     background-color: #FFFFFF;
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .logo-link {
     font-family: var(--second-ft);
@@ -333,6 +334,9 @@ button {
     margin-bottom: 72px;
     margin-left: auto;
 }
+.customers-container .team-title {
+    line-height: 1.1;
+}
 
 .team-list-iteam {
     background-color: var(--background-cl);
@@ -366,7 +370,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 32px 16px;
+    padding: 32px 0;
     gap: 8px;
 }
 /* Social icons */
@@ -406,7 +410,7 @@ button {
   |============================
 */
 .customers {
-    padding-top: 107px;
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 .customers-container {
@@ -607,6 +611,7 @@ button {
 .portf-list .portf-iteam {
     text-decoration: none;
     list-style: none;
+    display: block;
 }
 .portf-list {
     display: flex;
@@ -622,10 +627,10 @@ button {
 .portf-list-iteam:nth-last-child(-n + 3) {
     margin-bottom: 0px;
 }
-.portfolio-list-iteam:hover {
+.portf-list-iteam:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.portfolio-list-iteam:focus {
+.portf-list-iteam:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-card-tx {
